@@ -1,0 +1,5 @@
+$def with (posts)
+<ul xmlns="http://www.w3.org/1999/html">
+    $for post in posts:
+        <li><a id="t$post.id" href="$post.url">$post.title</a></li>
+</ul>
